@@ -1,0 +1,135 @@
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: rgb(176, 170, 170) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #d4d4d4 !important;
+  padding: 0px;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.content {
+  padding-top: 0px;
+}
+
+.container-info {
+  padding-top: 10px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #991c41;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button {
+  background-color: #adadad;
+  box-shadow: none;
+  border: none;
+  color: rgb(17, 17, 17);
+  padding: 5px;
+  border-radius: 3.5%;
+}
+
+button:hover {
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+
+.spinner-border {
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.return-home a {
+  color: #991c41;
+}
+
+a:hover {
+  color: rgb(85, 82, 83);
+}
+
+input,
+select {
+  height: 35px !important;
+}
+
+.nav-item button {
+  color: black !important;
+}
+
+.nav-tabs {
+  background-color: beige;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-menu .navbar {
+  background-color: rgb(17, 17, 17) !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 30px;
+}
+
+.image-slide {
+  height: 600px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-container a {
+  color: #fff;
+}
+.header-container a:hover {
+  color: black;
+}
+
+.footer-container {
+  background-color: rgb(17, 17, 17) !important;
+}
+
+Footer {
+  margin-top: 80px;
+}
+
+.copycright {
+  background-color: black;
+}

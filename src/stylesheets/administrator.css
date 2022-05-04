@@ -1,0 +1,105 @@
+.login-form-admin {
+  background-color: rgb(197, 65, 98);
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  z-index: 999 !important;
+}
+
+.login-parent-admin {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.login-parent-admin .row {
+  height: 100vh;
+  align-items: center;
+  z-index: 999 !important;
+}
+
+.login-bottom-admin {
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #010b0f;
+  z-index: 0 !important;
+}
+
+.button-login-admin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button-login-admin button {
+  background-color: #010b0f;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.button-login-admin button:hover {
+  background-color: antiquewhite;
+  color: #010b0f;
+}
+
+.p-admin {
+  color: white !important;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.h3,
+h3 {
+  font-size: 1.75rem;
+  padding-left: 500px;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-item button {
+  color: white !important;
+}
+
+.nav-tabs .nav-link {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: black !important;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30%;
+  border-color: #010b0f;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.button-close {
+  box-shadow: none !important;
+}
+
+.header-admin nav {
+  background-color: #11191c !important;
+}
+
+.to-login {
+  color: #fff;
+}
+
+
+.to-login:hover {
+  color: #010b0f;
+}
