@@ -22,7 +22,7 @@ function AdminPage() {
     name: "",
     price: 0,
     imageURL: "",
-    quanity: 1,
+    quanityPre: 1,
     description: "",
     brand_name: "",
   });
@@ -248,7 +248,7 @@ function AdminPage() {
                     </td>
                     <td>{item.name}</td>
                     <td>{item.brand_name}</td>
-                    <td>{item.quanity}</td>
+                    <td>{item.quanityPre}</td>
                     <td>{item.price}</td>
                     <td>
                       <FaTrashAlt
@@ -306,11 +306,11 @@ function AdminPage() {
                 />
                 <input
                   type="number"
-                  value={product.quanity}
+                  value={product.quanityPre}
                   className="form-control"
                   placeholder="quanity"
                   onChange={(e) =>
-                    setProduct({ ...product, quanity: e.target.value })
+                    setProduct({ ...product, quanityPre: e.target.value })
                   }
                 />
                 <input
